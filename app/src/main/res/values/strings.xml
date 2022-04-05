@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RYK Petrol Pump</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="FORGET_PSW_UNDERLINE"><u>Forget Password</u></string>
+    <string name="SIGNUP_UNDERLINE"><u>Sign Up</u></string>
+    <string name="SIGNIN_UNDERLINE"><u>Log In</u></string>
+</resources>

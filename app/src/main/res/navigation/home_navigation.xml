@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.rykpetrolpump.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/redeemFragment"
+        android:name="com.example.rykpetrolpump.RedeemFragment"
+        android:label="fragment_redeem"
+        tools:layout="@layout/fragment_redeem" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.rykpetrolpump.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.example.rykpetrolpump.SupportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+</navigation>
