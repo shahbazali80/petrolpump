@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517894970670",
+    "project_id": "petrol-pump-875c3",
+    "storage_bucket": "petrol-pump-875c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517894970670:android:8c5d511b79d93e083d6ebf",
+        "android_client_info": {
+          "package_name": "com.example.rykpetrolpump"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517894970670-2ovc99m3353aukjuka0rgdgipnlqe0ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5vyL45rlReqk0DXMIgVnL1bkbQwKc3JM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517894970670-2ovc99m3353aukjuka0rgdgipnlqe0ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
