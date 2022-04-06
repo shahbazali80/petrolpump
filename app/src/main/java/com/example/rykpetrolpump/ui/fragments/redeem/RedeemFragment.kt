@@ -1,19 +1,20 @@
-package com.example.rykpetrolpump
+package com.example.rykpetrolpump.ui.fragments.redeem
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.rykpetrolpump.R
 
-class SupportFragment : Fragment() {
+class RedeemFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_support, container, false)
+        return inflater.inflate(R.layout.fragment_redeem, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

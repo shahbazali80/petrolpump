@@ -1,4 +1,4 @@
-package com.example.rykpetrolpump
+package com.example.rykpetrolpump.ui.fragments.login
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.example.rykpetrolpump.R
+import com.example.rykpetrolpump.ui.HomeActivity
 import kotlinx.android.synthetic.main.fragment_login.*
 
 class LoginFragment : Fragment() {
@@ -25,7 +27,7 @@ class LoginFragment : Fragment() {
             findNavController().navigate(R.id.action_loginFragment_to_registerFragment)
         }
         loginBtn.setOnClickListener {
-            startActivity(Intent(it.context,HomeActivity::class.java))
+            startActivity(Intent(it.context, HomeActivity::class.java))
         }
 
     }

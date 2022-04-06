@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.rykpetrolpump.HomeFragment"
+        android:name="com.example.rykpetrolpump.ui.fragments.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/redeemFragment"
-        android:name="com.example.rykpetrolpump.RedeemFragment"
+        android:name="com.example.rykpetrolpump.ui.fragments.redeem.RedeemFragment"
         android:label="fragment_redeem"
         tools:layout="@layout/fragment_redeem" />
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.example.rykpetrolpump.HistoryFragment"
+        android:name="com.example.rykpetrolpump.ui.fragments.history.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
     <fragment
         android:id="@+id/supportFragment"
-        android:name="com.example.rykpetrolpump.SupportFragment"
+        android:name="com.example.rykpetrolpump.ui.fragments.support.SupportFragment"
         android:label="fragment_support"
         tools:layout="@layout/fragment_support" />
 </navigation>
