@@ -30,6 +30,7 @@
         android:layout_margin="20dp"
         android:background="@drawable/round_corner_bottom_nav"
         app:itemIconSize="@dimen/bottom_navigation_icon_size"
+        app:itemTextColor="@drawable/bottom_nav_item_color"
         app:itemIconTint="@color/white"
         app:itemRippleColor="@android:color/transparent"
         app:labelVisibilityMode="labeled"
